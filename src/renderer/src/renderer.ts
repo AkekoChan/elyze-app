@@ -646,7 +646,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <td scope="row">${item.name}</td>
                 <td><span>${item.letter}</span></td>
                 <td>
-                  <div>
+                  <div class="letters-table__copy">
                     <button type="button" data-letter="${item.letter}">Copier</button>
                   </div>
                 </td>
@@ -658,25 +658,30 @@ document.addEventListener('DOMContentLoaded', () => {
         .querySelectorAll<HTMLButtonElement>('button[data-letter]')
         .forEach((button) => {
           button.addEventListener('click', () => {
+            const parent = button.parentElement as HTMLElement;
             const letter = button.dataset.letter as string;
 
-            App.handleCopyLetter(letter);
+            App.handleCopyLetter(letter, parent);
           });
         });
     },
 
-    handleCopyLetter: (letter: string): void => {
-      const notificationTitle = 'Caractère copié !';
-      const notificationIcon = '../assets/img/logo.svg';
-      const notificationBody = `Votre caractère "${letter}" a été copié dans le presse-papier !`;
-
+    handleCopyLetter: (letter: string, parent: HTMLElement): void => {
       navigator.clipboard.writeText(letter).then(() => {
-        App.sendNotification({
-          title: notificationTitle,
-          icon: notificationIcon,
-          body: notificationBody,
-          soundPlayed: false,
-        });
+        const existingTooltip = parent.querySelector('.tooltip');
+        if (existingTooltip) {
+          existingTooltip.remove();
+        }
+
+        const tooltip = document.createElement('div');
+        tooltip.className = 'tooltip';
+        tooltip.innerHTML = `<span class="tooltip-content">Caractère copié</span>`;
+
+        parent.appendChild(tooltip);
+
+        setTimeout(() => {
+          tooltip.remove();
+        }, 1000);
       });
     },
 

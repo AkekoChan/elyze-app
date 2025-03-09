@@ -11,12 +11,7 @@
   gap: 1.5rem;
 }
 
-.sidebar-nav .nav-item {
-  padding: 0.75rem 1rem;
-  border-radius: 2rem;
-}
-
-.sidebar-nav .nav-item.current {
+.sidebar-nav .nav-item.current .nav-link {
   background: var(--coffee-foam);
   color: var(--black);
 }
@@ -25,6 +20,9 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+  transition: all 0.3s var(--easeOutCubic);
 
   & span {
     font-weight: 600;
@@ -33,6 +31,18 @@
 
   & svg:last-child {
     margin-left: auto;
+  }
+
+  & svg:last-child {
+    transition: all 0.3s var(--easeOutCubic);
+  }
+
+  &:is(:hover, :focus-within) {
+    filter: brightness(90%);
+  }
+
+  &:is(:hover, :focus-within) svg:last-child {
+    transform: translateX(0.5rem);
   }
 }
 

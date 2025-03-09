@@ -55,6 +55,7 @@
     0px 0px 0.3125rem rgba(23, 23, 23, 0.03),
     0px 0px 0.75rem rgba(23, 23, 23, 0.05),
     0px 0px 1.25rem rgba(23, 23, 23, 0.06), 0px 0px 2rem rgba(23, 23, 23, 0.08);
+  --easeOutCubic: cubic-bezier(0.33, 1, 0.68, 1);
 
   color-scheme: light dark;
 }
@@ -97,6 +98,11 @@ main {
 :is(p, a, ul, ol, div) {
   font-size: 1rem;
   line-height: 1.5;
+}
+
+:is(a:focus-visible, button:focus-visible, [role='switch']:focus-visible) {
+  outline: 0.125rem solid var(--coffee-foam);
+  outline-offset: 0.125rem;
 }
 
 ::selection {
