@@ -1,0 +1,63 @@
+.session {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2 / span 2;
+  background: var(--white);
+  box-shadow: var(--shadow);
+  border-radius: 1.25rem;
+  padding: 1rem;
+
+  & button {
+    background: var(--coffee-foam);
+    color: var(--black);
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.session-error {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.session-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.session-timer__number {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.session-timer__next-step {
+  margin-bottom: 1rem;
+
+  & span {
+    font-weight: 600;
+    background: var(--coffee-foam);
+    color: var(--black);
+    padding: 0.125rem;
+  }
+}
+
+.session-controls {
+  display: flex;
+  gap: 1rem;
+}
+
+.session-control button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.dark .session {
+  background: var(--dark-theme-secondary-bg);
+}

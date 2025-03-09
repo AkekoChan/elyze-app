@@ -1,0 +1,117 @@
+* {
+  /* FONTS */
+  --main-font: 'Montserrat', sans-serif;
+  --heading-font: 'Montserrat', sans-serif;
+
+  /* COLORS */
+  --coffee-foam: #e4c7a5;
+  --white: #fefefe;
+  --black: #171717;
+
+  --gray-020: #fafbfb;
+  --gray-050: #f8f9fa;
+  --gray-100: #ebedef;
+  --gray-200: #dde1e4;
+  --gray-300: #ced3d8;
+  --gray-400: #bdc4cb;
+  --gray-500: #aab4bc;
+  --gray-600: #95a1ac;
+  --gray-700: #808a93;
+  --gray-800: #646d74;
+  --gray-900: #3b3f44;
+
+  --dark-theme-main-bg: #171717;
+  --dark-theme-secondary-bg: #222222;
+  --dark-theme-color: #f8f9fa;
+
+  /* SIZES */
+  --s-0: 0rem; /* 0px */
+  --s-0_5: 0.125rem; /* 2px */
+  --s-1: 0.25rem; /* 4px */
+  --s-1_5: 0.375rem; /* 6px */
+  --s-2: 0.5rem; /* 8px */
+  --s-2_5: 0.625rem; /* 10px */
+  --s-3: 0.75rem; /* 12px */
+  --s-3_5: 0.875rem; /* 14px */
+  --s-4: 1rem; /* 16px */
+  --s-5: 1.25rem; /* 20px */
+  --s-6: 1.5rem; /* 24px */
+  --s-7: 1.75rem; /* 28px */
+  --s-8: 2rem; /* 32px */
+  --s-9: 2.25rem; /* 36px */
+  --s-10: 2.5rem; /* 40px */
+  --s-11: 2.75rem; /* 44px */
+  --s-12: 3rem; /* 48px */
+  --s-14: 3.5rem; /* 56px */
+  --s-16: 4rem; /* 64px */
+  --s-20: 5rem; /* 80px */
+  --s-24: 6rem; /* 96px */
+  --s-28: 7rem; /* 112px */
+  --s-32: 8rem; /* 128px */
+
+  /* OTHER */
+  --shadow:
+    0px 0px 0.0625rem rgba(23, 23, 23, 0.02),
+    0px 0px 0.3125rem rgba(23, 23, 23, 0.03),
+    0px 0px 0.75rem rgba(23, 23, 23, 0.05),
+    0px 0px 1.25rem rgba(23, 23, 23, 0.06), 0px 0px 2rem rgba(23, 23, 23, 0.08);
+
+  color-scheme: light dark;
+}
+
+html {
+  font-family: var(--main-font);
+  /* letter-spacing: 0.1; */
+  background-color: light-dark(var(--gray-050), var(--dark-theme-main-bg));
+  color: light-dark(var(--black), var(--dark-theme-color));
+}
+
+.light {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+  padding-inline: 2rem;
+  padding-bottom: 2rem;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--heading-font);
+  line-height: 1.1;
+}
+
+:is(p, a, ul, ol, div) {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+::selection {
+  background: var(--coffee-foam);
+  color: var(--black);
+}
+
+.sr-only {
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+}

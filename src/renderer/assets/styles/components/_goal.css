@@ -1,0 +1,98 @@
+.goal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: var(--white);
+  box-shadow: var(--shadow);
+  border-radius: 1.25rem;
+  padding: 1rem;
+
+  & button {
+    background: var(--coffee-foam);
+    color: var(--black);
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.goal-info,
+.goal-achieved p {
+  text-align: center;
+}
+
+.goal-choice {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  & button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+  }
+
+  & p {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+.goal-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--coffee-foam);
+  border-radius: 2rem;
+  padding: 0.75rem 1rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.goal-achieved > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.goal-achieved__number {
+  font-weight: 600;
+  background: var(--coffee-foam);
+  color: var(--black);
+  padding: 0.125rem;
+}
+
+.goal-achieved__progress-bar,
+.goal-achieved__progress-bar span {
+  height: 0.75rem;
+  border-radius: 2rem;
+}
+
+.goal-achieved__progress-bar {
+  width: 100%;
+  background: var(--black);
+  position: relative;
+
+  & span {
+    position: absolute;
+    /* width: 10%; */
+    background: var(--coffee-foam);
+  }
+}
+
+.goal-button:disabled,
+.goal-choice button:disabled {
+  filter: grayscale(1);
+  cursor: not-allowed;
+}
+
+.dark .goal {
+  background: var(--dark-theme-secondary-bg);
+}
+
+.dark .goal-achieved__progress-bar {
+  background: var(--dark-theme-color);
+}

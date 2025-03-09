@@ -1,0 +1,462 @@
+[
+  {
+    "name": "Point d'exclamation renversé",
+    "letter": "¡"
+  },
+  {
+    "name": "Symbole centime",
+    "letter": "¢"
+  },
+  {
+    "name": "Symbole livre sterling",
+    "letter": "£"
+  },
+  {
+    "name": "Symbole monétaire général",
+    "letter": "¤"
+  },
+  {
+    "name": "Symbole yen",
+    "letter": "¥"
+  },
+  {
+    "name": "Barre verticale brisée",
+    "letter": "¦"
+  },
+  {
+    "name": "Paragraphe",
+    "letter": "§"
+  },
+  {
+    "name": "Tréma",
+    "letter": "¨"
+  },
+  {
+    "name": "Symbole de copyright",
+    "letter": "©"
+  },
+  {
+    "name": "Indicatif ordinal féminin",
+    "letter": "ª"
+  },
+  {
+    "name": "Guillemet français ouvrant",
+    "letter": "«"
+  },
+  {
+    "name": "Signe de négation",
+    "letter": "¬"
+  },
+  {
+    "name": "Tiret conditionnel",
+    "letter": "\u00AD"
+  },
+  {
+    "name": "Symbole marque déposée",
+    "letter": "®"
+  },
+  {
+    "name": "Macron",
+    "letter": "¯"
+  },
+  {
+    "name": "Degré",
+    "letter": "°"
+  },
+  {
+    "name": "Signe plus ou moins",
+    "letter": "±"
+  },
+  {
+    "name": "Exposant deux",
+    "letter": "²"
+  },
+  {
+    "name": "Exposant trois",
+    "letter": "³"
+  },
+  {
+    "name": "Accent aigu",
+    "letter": "´"
+  },
+  {
+    "name": "Symbole micro",
+    "letter": "µ"
+  },
+  {
+    "name": "Paragraphe",
+    "letter": "¶"
+  },
+  {
+    "name": "Point médian",
+    "letter": "·"
+  },
+  {
+    "name": "Cédille",
+    "letter": "¸"
+  },
+  {
+    "name": "Exposant un",
+    "letter": "¹"
+  },
+  {
+    "name": "Indicatif ordinal masculin",
+    "letter": "º"
+  },
+  {
+    "name": "Guillemet français fermant",
+    "letter": "»"
+  },
+  {
+    "name": "Un quart",
+    "letter": "¼"
+  },
+  {
+    "name": "Un demi",
+    "letter": "½"
+  },
+  {
+    "name": "Trois quarts",
+    "letter": "¾"
+  },
+  {
+    "name": "Point d'interrogation renversé",
+    "letter": "¿"
+  },
+  {
+    "name": "Lettre majuscule A avec accent grave",
+    "letter": "À"
+  },
+  {
+    "name": "Lettre majuscule A avec accent aigu",
+    "letter": "Á"
+  },
+  {
+    "name": "Lettre majuscule A avec accent circonflexe",
+    "letter": "Â"
+  },
+  {
+    "name": "Lettre majuscule A avec tilde",
+    "letter": "Ã"
+  },
+  {
+    "name": "Lettre majuscule A avec tréma",
+    "letter": "Ä"
+  },
+  {
+    "name": "Lettre majuscule A avec rond en chef",
+    "letter": "Å"
+  },
+  {
+    "name": "Lettre majuscule Æ",
+    "letter": "Æ"
+  },
+  {
+    "name": "Lettre majuscule C avec cédille",
+    "letter": "Ç"
+  },
+  {
+    "name": "Lettre majuscule E avec accent grave",
+    "letter": "È"
+  },
+  {
+    "name": "Lettre majuscule E avec accent aigu",
+    "letter": "É"
+  },
+  {
+    "name": "Lettre majuscule E avec accent circonflexe",
+    "letter": "Ê"
+  },
+  {
+    "name": "Lettre majuscule E avec tréma",
+    "letter": "Ë"
+  },
+  {
+    "name": "Lettre majuscule I avec accent grave",
+    "letter": "Ì"
+  },
+  {
+    "name": "Lettre majuscule I avec accent aigu",
+    "letter": "Í"
+  },
+  {
+    "name": "Lettre majuscule I avec accent circonflexe",
+    "letter": "Î"
+  },
+  {
+    "name": "Lettre majuscule I avec tréma",
+    "letter": "Ï"
+  },
+  {
+    "name": "Lettre majuscule Eth",
+    "letter": "Ð"
+  },
+  {
+    "name": "Lettre majuscule N avec tilde",
+    "letter": "Ñ"
+  },
+  {
+    "name": "Lettre majuscule O avec accent grave",
+    "letter": "Ò"
+  },
+  {
+    "name": "Lettre majuscule O avec accent aigu",
+    "letter": "Ó"
+  },
+  {
+    "name": "Lettre majuscule O avec accent circonflexe",
+    "letter": "Ô"
+  },
+  {
+    "name": "Lettre majuscule O avec tilde",
+    "letter": "Õ"
+  },
+  {
+    "name": "Lettre majuscule O avec tréma",
+    "letter": "Ö"
+  },
+  {
+    "name": "Signe de multiplication",
+    "letter": "×"
+  },
+  {
+    "name": "Lettre majuscule O barré",
+    "letter": "Ø"
+  },
+  {
+    "name": "Lettre majuscule U avec accent grave",
+    "letter": "Ù"
+  },
+  {
+    "name": "Lettre majuscule U avec accent aigu",
+    "letter": "Ú"
+  },
+  {
+    "name": "Lettre majuscule U avec accent circonflexe",
+    "letter": "Û"
+  },
+  {
+    "name": "Lettre majuscule U avec tréma",
+    "letter": "Ü"
+  },
+  {
+    "name": "Lettre majuscule Y avec accent aigu",
+    "letter": "Ý"
+  },
+  {
+    "name": "Lettre majuscule Thorn",
+    "letter": "Þ"
+  },
+  {
+    "name": "Lettre minuscule s longue",
+    "letter": "ß"
+  },
+  {
+    "name": "Lettre minuscule a avec accent grave",
+    "letter": "à"
+  },
+  {
+    "name": "Lettre minuscule a avec accent aigu",
+    "letter": "á"
+  },
+  {
+    "name": "Lettre minuscule a avec accent circonflexe",
+    "letter": "â"
+  },
+  {
+    "name": "Lettre minuscule a avec tilde",
+    "letter": "ã"
+  },
+  {
+    "name": "Lettre minuscule a avec tréma",
+    "letter": "ä"
+  },
+  {
+    "name": "Lettre minuscule a avec rond en chef",
+    "letter": "å"
+  },
+  {
+    "name": "Lettre minuscule æ",
+    "letter": "æ"
+  },
+  {
+    "name": "Lettre minuscule c avec cédille",
+    "letter": "ç"
+  },
+  {
+    "name": "Lettre minuscule e avec accent grave",
+    "letter": "è"
+  },
+  {
+    "name": "Lettre minuscule e avec accent aigu",
+    "letter": "é"
+  },
+  {
+    "name": "Lettre minuscule e avec accent circonflexe",
+    "letter": "ê"
+  },
+  {
+    "name": "Lettre minuscule e avec tréma",
+    "letter": "ë"
+  },
+  {
+    "name": "Lettre minuscule i avec accent grave",
+    "letter": "ì"
+  },
+  {
+    "name": "Lettre minuscule i avec accent aigu",
+    "letter": "í"
+  },
+  {
+    "name": "Lettre minuscule i avec accent circonflexe",
+    "letter": "î"
+  },
+  {
+    "name": "Lettre minuscule i avec tréma",
+    "letter": "ï"
+  },
+  {
+    "name": "Lettre minuscule eth",
+    "letter": "ð"
+  },
+  {
+    "name": "Lettre minuscule n avec tilde",
+    "letter": "ñ"
+  },
+  {
+    "name": "Lettre minuscule o avec accent grave",
+    "letter": "ò"
+  },
+  {
+    "name": "Lettre minuscule o avec accent aigu",
+    "letter": "ó"
+  },
+  {
+    "name": "Lettre minuscule o avec accent circonflexe",
+    "letter": "ô"
+  },
+  {
+    "name": "Lettre minuscule o avec tilde",
+    "letter": "õ"
+  },
+  {
+    "name": "Lettre minuscule o avec tréma",
+    "letter": "ö"
+  },
+  {
+    "name": "Signe de division",
+    "letter": "÷"
+  },
+  {
+    "name": "Lettre minuscule o barré",
+    "letter": "ø"
+  },
+  {
+    "name": "Lettre minuscule u avec accent grave",
+    "letter": "ù"
+  },
+  {
+    "name": "Lettre minuscule u avec accent aigu",
+    "letter": "ú"
+  },
+  {
+    "name": "Lettre minuscule u avec accent circonflexe",
+    "letter": "û"
+  },
+  {
+    "name": "Lettre minuscule u avec tréma",
+    "letter": "ü"
+  },
+  {
+    "name": "Lettre minuscule y avec accent aigu",
+    "letter": "ý"
+  },
+  {
+    "name": "Lettre minuscule thorn",
+    "letter": "þ"
+  },
+  {
+    "name": "Lettre minuscule y avec tréma",
+    "letter": "ÿ"
+  },
+  {
+    "name": "Flèche vers la gauche",
+    "letter": "←"
+  },
+  {
+    "name": "Flèche vers le haut",
+    "letter": "↑"
+  },
+  {
+    "name": "Flèche vers la droite",
+    "letter": "→"
+  },
+  {
+    "name": "Flèche vers le bas",
+    "letter": "↓"
+  },
+  {
+    "name": "Flèche gauche-droite",
+    "letter": "↔"
+  },
+  {
+    "name": "Flèche haut-bas",
+    "letter": "↕"
+  },
+  {
+    "name": "Flèche diagonale nord-ouest",
+    "letter": "↖"
+  },
+  {
+    "name": "Flèche diagonale nord-est",
+    "letter": "↗"
+  },
+  {
+    "name": "Flèche diagonale sud-est",
+    "letter": "↘"
+  },
+  {
+    "name": "Flèche diagonale sud-ouest",
+    "letter": "↙"
+  },
+  {
+    "name": "Double flèche vers la gauche",
+    "letter": "⇐"
+  },
+  {
+    "name": "Double flèche vers le haut",
+    "letter": "⇑"
+  },
+  {
+    "name": "Double flèche vers la droite",
+    "letter": "⇒"
+  },
+  {
+    "name": "Double flèche vers le bas",
+    "letter": "⇓"
+  },
+  {
+    "name": "Double flèche gauche-droite",
+    "letter": "⇔"
+  },
+  {
+    "name": "Double flèche haut-bas",
+    "letter": "⇕"
+  },
+  {
+    "name": "Flèche blanche vers le nord-est",
+    "letter": "⬀"
+  },
+  {
+    "name": "Flèche blanche vers le nord-ouest",
+    "letter": "⬁"
+  },
+  {
+    "name": "Flèche blanche vers le sud-est",
+    "letter": "⬂"
+  },
+  {
+    "name": "Flèche blanche vers le sud-ouest",
+    "letter": "⬃"
+  }
+]

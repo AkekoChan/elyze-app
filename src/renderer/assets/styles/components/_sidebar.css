@@ -1,0 +1,41 @@
+.sidebar-nav {
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  background: var(--white);
+  border-radius: 1.25rem;
+}
+
+.sidebar-nav .nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sidebar-nav .nav-item {
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+}
+
+.sidebar-nav .nav-item.current {
+  background: var(--coffee-foam);
+  color: var(--black);
+}
+
+.sidebar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  & span {
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+
+  & svg:last-child {
+    margin-left: auto;
+  }
+}
+
+.dark .sidebar-nav {
+  background: var(--dark-theme-secondary-bg);
+}

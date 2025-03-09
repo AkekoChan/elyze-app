@@ -1,0 +1,71 @@
+.clicker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: var(--white);
+  box-shadow: var(--shadow);
+  border-radius: 1.25rem;
+  padding: 1rem;
+  grid-column: span 2;
+  grid-row: span 2;
+
+  & span {
+    font-weight: 600;
+    background: var(--coffee-foam);
+    color: var(--black);
+    padding: 0.125rem;
+  }
+}
+
+.clicker-info {
+  text-align: center;
+}
+
+.clicker-game,
+.clicker-tracking {
+  display: flex;
+  flex-direction: column;
+}
+
+.clicker-game {
+  gap: 1.5rem;
+}
+
+.clicker-button {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: var(--coffee-foam);
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  & span {
+    font-size: 1rem;
+  }
+}
+
+.clicker-button:active {
+  filter: brightness(0.8);
+}
+
+.clicker-button:disabled {
+  filter: brightness(0.8);
+  cursor: not-allowed;
+}
+
+.clicker-tracking {
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.dark .clicker {
+  background: var(--dark-theme-secondary-bg);
+}

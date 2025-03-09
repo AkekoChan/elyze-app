@@ -1,0 +1,11 @@
+/* Toujours nommer son component avec un "_" au début, puis l'importer comme ci-dessous.  */
+
+@import '_header.css';
+@import '_sidebar.css';
+@import '_timer.css';
+@import '_goal.css';
+@import '_session.css';
+@import '_topbar.css';
+@import '_clicker.css';
+
+@import '_letters.css';
