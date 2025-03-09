@@ -1,4 +1,4 @@
-# package.json
+# Elyze
 
 A minimal Electron application with TypeScript
 
